@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>'
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300&family=Comfortaa:wght@300&family=Inter:wght@500&family=Public+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holder-Card</title>
+  <style>
+    *{
+     margin: 0;
+     padding: 0;
+   }
+   body{
+    background-color:white;
+   }
+   .card{
+    background-color: gainsboro;
+    width: 380px;
+    height: 550px;
+    text-align: center;
+    margin: 10%;
+    margin-left: 38%;
+    border-radius: 25px;
+    box-shadow: 0 0 12px 12px #868e96;
+   }
+   
+   .background{
+    background:purple;
+    margin-bottom: 80px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+   }
+   .info-pic{
+    border: 4px solid black;
+    border-radius: 50%;
+   
+    position: relative;
+    top:70px;
+   }
+   img{
+    height:100px;
+    width: 100px;
+   
+   
+   }
+   h1{
+    font-family: 'Public Sans', sans-serif;
+    color: black;
+    font-size: 39px;
+  
+   }
+   strong{
+    color: blueviolet;
+    font-size: 39px;
+   }
+  .internet{
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+     gap: 80px;
+    padding-left: 40px;
+   
+  }
+  .info{
+    margin-top: -18px;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  .social-media{
+    justify-content: center;
+    align-items: center;
+  }
+  .info:hover{
+    cursor: pointer;
+    color: royalblue;
+  }
+  .footer{
+   display: flex;
+   flex-direction: row;
+   margin-top: 35px;
+   gap: 20px;
+   align-items: center;
+   justify-self: center;
+   padding-left: 130px;
+   font-size: 30px;
+   cursor: pointer;
+  }
+  .futer{
+    color: rgb(22, 21, 23);
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    float: left;
+    margin-left: 15px;
+  }
+ 
+  </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="background">
+        <img src="sujj.png" class="info-pic" >
+      </div>
+      <div class="card-info">
+        <h1><strong>Sujal</strong> &nbsp;Upadhyay</b></h1>
+        <br>
+       
+      </div>
+      <div class="social-media">
+        <svg xmlns="http://www.w3.org/2000/svg" class="internet" viewBox="0 0 20 20" fill="currentColor">
+          <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+          <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+        </svg>
+         <p class="info">info.xyz@gmail.com</p>
+       
+        <svg xmlns="http://www.w3.org/2000/svg" class="internet" viewBox="0 0 20 20" fill="currentColor">
+          <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+        </svg>
+        <p class="info">+977-980-9234-987</p>
+
+        <svg xmlns="http://www.w3.org/2000/svg" class="internet" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd" />
+        </svg>
+        <p class="info">www.xyz.com</p>
+      
+        <svg xmlns="http://www.w3.org/2000/svg" class="internet" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+        </svg>
+        <p class="info"> Nawalparasi</p>
+       
+      </div>
+      <div class="footer">
+        <i class="fa fa-facebook" class="icon"></i>
+        <i class="fa fa-instagram" class="icon"></i>
+        <i class="fa fa-twitter" class="icon"></i>
+      </div>
+      <p class="futer">Copyright © 2022 by Sujal Upadhyay.</p>
+    </div>
+  </body>
+  </html>

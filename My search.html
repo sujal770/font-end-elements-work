@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow:wght@200;300&family=Comfortaa:wght@300&family=Inter:wght@500&family=League+Gothic&family=Poppins&family=Public+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300&family=Comfortaa:wght@300&family=Inter:wght@500&family=League+Gothic&family=Poppins&family=Public+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300&family=Comfortaa:wght@300&family=Inter:wght@500&family=Public+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }   
+    body{
+     
+      font-family:  sans-serif;
+      height: 125vh;
+      z-index: -1;
+  
+    }
+    nav{
+
+      height: 80px;
+      display: flex;   
+      align-items: center;
+      justify-content: space-between;
+      padding: 0px 50px 0px 100px; 
+       
+    }
+    nav .logo{
+      font-size: 33px;
+      color:  #38d9a9;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+    nav ul{
+      display: flex;
+      list-style: none;
+    }
+    nav ul li{
+      margin:  0 1rem;
+    }
+    nav ul li a{
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 500;
+      padding: 8px 10px;
+      background: black;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+     nav ul li a:hover,nav ul a.active{
+      color: #1b1b1b;
+      background-color: white;
+      border-top-right-radius: 15px;
+    }
+    .hero-image{
+     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(" https://images.hdqwalls.com/wallpapers/green-mercedes-amg-gt-r-rear-4k-i7.jpg"); 
+  /* https://cdn.wallpapersafari.com/90/60/0yq4pe.jpg */     
+ /*  https://images.hdqwalls.com/wallpapers/green-mercedes-amg-gt-r-rear-4k-i7.jpg */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 80%;
+      animation: slider  20s infinite;
+    }
+    @keyframes slider {
+      70%{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.wallpapersden.com/image/download/astronaut-lost-in-space_bGtua2eUmZqaraWkpJRnamtlrWZpaWVnZWdla2Zr.jpg");
+
+      }
+      80%{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url("https://wallpaperaccess.com/full/307324.jpg");
+      
+    }
+    90%{
+      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url("https://www.colorwallpapers.com/uploads/wallpaper/nature-wallpapers/width-853/mRVRvjvsajmQ-cool-nature-scenery-4k-hd-wallpapers-and-background-images.jpg");
+    }
+    100%{
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://images.unsplash.com/photo-1512441933491-7b8cc442ed32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
+    }
+  }
+    .info,h1{
+      color: white;
+      text-align: center;
+      padding-top: 28px;
+      text-transform: uppercase;
+      font-family: 'Poppins', sans-serif;
+      font-size: 35px;
+      letter-spacing: 2px;
+    }
+   
+    .sujal{
+      font-family: 'Barlow', sans-serif;
+       font-family: 'Barlow Condensed', sans-serif;
+      color: #38d9a9;
+      font-size: 40px;
+      text-decoration: underline 5px rgb(210, 27, 210);
+    }
+    .card{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+      padding-top: 60px;
+      width: 400px;
+      height: 300px;
+    }
+    h2{
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 30px;
+      font-family: sans-serif;
+
+      
+
+    }
+    .container{
+      width: 1343px;
+     margin: 0 auto;
+     height: 950px;
+    }
+    i{
+      color: white;
+      margin-left: 50px;
+      margin-bottom: -150px;
+    }
+.bookmark{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  width: 300px;
+  height: 200px;
+  margin-top: 240px;
+  margin-left: 320px;
+  row-gap:35px;
+  margin-bottom: 10px;
+}
+.facebook{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+.facebook:hover{
+  color: #38d9a9;
+}
+.ff{
+  position: relative;
+  margin-left: -20px;
+  padding-right: 30px;
+}
+.ff:hover{
+  color: #38d9a9;
+}
+.yt{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+  margin-left: 18px;
+  padding-right: 30px;
+}
+.yt:hover{
+  color: #38d9a9;
+}
+.in{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+  margin-left: 18px;
+  padding-right: 30px;
+
+}
+.in:hover{
+  color: #38d9a9;
+}
+.dis{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+  margin-left: 18px;
+  padding-right: 30px;
+
+}
+.dis:hover{
+  color: #38d9a9;
+}
+
+.red{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+  margin-left: 29px;
+  padding-right: 30px;
+}
+.red:hover{
+  color: #38d9a9;
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+  <div class="hero-image">
+  <nav>
+    <div class="logo">Turbo~Search</div>
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="https://www.gmail.com" target="_blank">Gmail</a></li>
+      <li><a href="https://www.googlephotos.com" target="_blank">Google-Photos</a></li>
+      <li><a href="https://www.pinterest.com" target="_blank">Pinterest</a></li>
+      <li><a href="https://www.wikipedia.com" target="_blank" >Wikipedia</a></li>
+    </ul>
+  </nav>
+
+    <h1 class="info"><strong class="sujal">Welcome</strong>&nbsp; Mr sujal upadhyay</h1>
+    <br>
+    <section>
+      <div class="bookmark">
+        <div class="ff">
+          <i class="fa fa-facebook fa-3x" ></i>
+          <a href="https://www.facebook.com/" class="facebook" target="_blank">Facebook</a>
+          </div>
+          <div class="ff">
+          <i class="fa fa-instagram fa-3x" ></i>
+          <a href="https://www.instagram.com" class="in" target="_blank">Instagram</a>
+        </div>
+        <div class="ff">
+          <i class="fab fa-discord fa-3x"></i>
+          <a href="https://www.discord.com" class="dis" target="_blank">Discord</a>
+
+        </div>
+        <div class="ff">
+
+          <i class="fa fa-youtube fa-3x" ></i>
+          <a href="https://www.youtube.com" class="yt" target="_blank">Youtube</a>
+          </div>
+        <div class="ff">
+          <i class="fa fa-reddit fa-3x" ></i>
+          <a href="https://www.reddit.com" class="red" target="_blank">Reddit</a>
+</div>
+
+   
+</div>
+  
+</body>
+</html>
